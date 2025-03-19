@@ -19,9 +19,9 @@ async def get_phone_number(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         msg = f"""💥 BOMBER ON FIRE! 🔥
 📲 Target: {data['phone']}
-💣 Bombing started, let's get this shit moving!
+💣 Bombing started!
 
-⚡️ Wanna join more? [Link](https://t.me/+moHG4GzOgY05MTA1)
+⚡️ Want more chaos? [Join the madness](https://t.me/+moHG4GzOgY05MTA1)
 """
         await update.message.reply_text(msg)
     else:
